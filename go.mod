@@ -13,9 +13,9 @@ require (
 	github.com/hashicorp/hcl/v2 v2.6.0
 	github.com/hashicorp/logutils v1.0.0
 	github.com/hashicorp/terraform v0.12.29
-	github.com/hashicorp/terraform-plugin-sdk v1.14.0
+	github.com/hashicorp/terraform-plugin-sdk v1.16.0
 	github.com/jessevdk/go-flags v1.4.0
-	github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024
+	github.com/jstemmer/go-junit-report v0.9.1
 	github.com/mattn/go-colorable v0.1.7
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/serenize/snaker v0.0.0-20171204205717-a683aaf2d516
@@ -25,7 +25,7 @@ require (
 	github.com/terraform-linters/tflint-plugin-sdk v0.3.1-0.20200723121039-5ac6ff48b81e
 	github.com/terraform-providers/terraform-provider-aws v2.70.0+incompatible
 	github.com/zclconf/go-cty v1.5.1
-	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f
+	golang.org/x/lint v0.0.0-20200302205851-738671d3881b
 )
 
 replace github.com/terraform-providers/terraform-provider-aws v2.70.0+incompatible => github.com/terraform-providers/terraform-provider-aws v1.60.1-0.20200710175044-2f23a59662cc
